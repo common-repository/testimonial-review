@@ -1,0 +1,241 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ * version 1.7
+ */
+
+.testimonial-review-settings {
+  margin: 20px 0;
+}
+.testimonial-review-settings .option-box {
+  margin: 10px 0;
+  padding: 10px;
+}
+.testimonial-review-settings .option-box .option-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+.testimonial-review-settings .option-box .option-info {
+  color: rgb(153, 153, 153);
+  font-size: 13px;
+  font-weight: normal;
+  margin: 10px 0;
+}
+.testimonial-review-settings ul.tab-nav {
+  clear: both;
+  margin: 0;
+  padding: 0;
+}
+.testimonial-review-settings ul.tab-nav li {
+  background: none repeat scroll 0 0 rgb(230, 230, 230);
+  cursor: pointer;
+  display: inline-block;
+  float: left;
+  margin: 0;
+  padding: 15px 20px;
+  font-weight: bold;
+}
+.testimonial-review-settings ul.tab-nav li.active {
+  background: #0073aa;
+  font-weight: bold;
+  color: #fff;
+}
+.testimonial-review-settings ul.box {
+  clear: both;
+  margin: 0;
+  padding: 0;
+}
+.testimonial-review-settings ul.box li.tab-box {
+  background: rgb(255, 255, 255) none repeat scroll 0 0;
+  display: none;
+  margin: 0;
+  width: 100%;
+}
+.testimonial-review-settings .new_user_profile_social {
+  margin: 15px 5px;
+}
+.testimonial-review-settings ul.voting-bg-img-list {}
+.testimonial-review-settings ul.voting-bg-img-list li {
+  display: inline-block;
+  margin: 5px;
+}
+.testimonial-review-settings ul.voting-bg-img-list li.bg-selected {}
+.testimonial-review-settings ul.voting-bg-img-list li img {
+  border: 2px solid #ffffff;
+}
+.testimonial-review-settings ul.voting-bg-img-list li.bg-selected img {
+  border: 2px solid #ff5a11;
+}
+.testimonial-review-settings h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 25px 0;
+}
+.testimonial-review-settings .expandable {}
+.testimonial-review-settings .expandable .items {
+  background: none repeat scroll 0 0 rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(153, 153, 153);
+  margin: 2px 0;
+}
+.testimonial-review-settings .expandable .items.ui-sortable-helper {
+  border: 1px dashed rgb(153, 153, 153);
+}
+.testimonial-review-settings .expandable .header {
+  background: none repeat scroll 0 0 rgb(255, 255, 255);
+  padding: 5px;
+}
+.testimonial-review-settings .expandable .active .options {
+  display: block;
+}
+.testimonial-review-settings .expandable .options {
+  background: none repeat scroll 0 0 rgb(240, 240, 240);
+  display: none;
+  padding: 10px;
+}
+
+@media all and (max-width: 799px) {
+  .testimonial-review-settings ul.tab-nav li {
+    display: block;
+    float: none;
+  }
+  .testimonial-review-settings ul.tab-nav li.active {
+    font-weight: bold;
+  }
+  .testimonial-review-settings .pricing-table .column {
+    display: block;
+    float: none;
+    width: 100%;
+    border-right: 1px solid #ff9601;
+    margin: 50px 0;
+  }
+}
+
+.testimonial-review-settings .option-box span.prohints a {
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: none;
+    outline: none;
+}
+div#ppoint_review_scode_display_review p {
+    font-size: 14px;
+    text-align: center;
+}
+.testimonial-review-review{
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    background: #0073aa;
+    border-radius: 50px;
+    color: #fff;
+}
+.testimonial-review-review a.testimonial-btn {
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+    box-shadow: none;
+    outline: none;
+    display: block;
+    padding: 15px;
+}
+.testimonial-customize-area{
+  display: block;
+  overflow: hidden;
+}
+.testimonial-customize-inner{
+    display: block;
+  overflow: hidden;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.testimonial-customize-inner:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.testimonial-customize-inner.extra-border {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.testimonial-heading-area{
+    width: 190px;
+    float: left;
+    display: block;
+    overflow: hidden;
+    margin-right: 20px;
+}
+.testimonial-customize-area span.sub-heading{
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 10px;
+  font-weight: bold;
+}
+.testimonial-customize-area span.sub-description{
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 10px;
+  line-height: 24px;
+}
+.testimonial-select-items{
+    display: block;
+    overflow: hidden;
+    margin-right: 0px;
+}
+td.review_ratings.column-review_ratings i {
+    color: #ffa900;
+    padding: 0px 3px;
+    font-size: 15px;
+}
+select#review_ratings ,#review_testimonial_themes, #review_testimonial_type, #review_testimonial_orderby, #review_testimonial_order, #review_ratings_icon_size, #review_items_text_size, #review_name_fontstyle, #review_company_url_size, #review_designation_transform, #review_designation_fontstyle, #review_designation_font_size, #review_name_transform, #review_name_font_size, #review_title_fontstyle, #review_title_transform, #review_title_font_size, #testimonialreview_autoplay, #testimonialreview_autohide, #testimonialreview_centermode, #testimonialreview_autoplay_speed, #testimonialreview_stophover, #testimonialreview_autoplaytimeout, #testimonialreview_items, #testimonialreview_itemsdesktop, #testimonialreview_itemsdesktopsmall, #testimonialreview_itemsmobile, #testimonialreview_loop, #testimonialreview_margin, #testimonialreview_navigation, #testimonialreview_navigation_position, #testimonialreview_paginations, #testimonialreview_paginations_style, #testimonialreview_paginationsposition, #review_testimonial_grid_type, #review_testimonial_grid_style, #review_testimonial_columns, #reviews_total_items, #review_filter_menu_position, #review_filter_menu_style, #review_pagination_style, #review_pagination_align, #review_pagination_goback, #review_pagination_goforward, #review_title_hide, #review_designation_hide, #review_ratingicons_hide, #review_thumb_styles{
+    height: 40px;
+    border-radius: 0;
+    border: 1px solid #ddd;
+    width: 165px;
+    text-align: left;
+    box-shadow: none;
+    outline: none;
+    margin-top: 15px;
+}
+select#opacity{
+    height: 40px;
+    border-radius: 0;
+    border: 1px solid #ddd;
+    width: 165px;
+    text-align: center;
+    box-shadow: none;
+    outline: none;
+}
+#review_client_name, #review_company_designation, #review_company_name, #review_web_urls{
+    height: 40px;
+    border-radius: 0;
+    border: 1px solid #ddd;
+    width: 250px;
+    box-shadow: none;
+    outline: none;
+    margin-top: 15px;
+}
+.testimonialreview0-author-ratings-admin {
+    font-size: 15px;
+    color: #ffb300;
+}
+div#ppoint_review_scode_display_message textarea {
+    border: none;
+    outline: none;
+    background: #e3edf2;
+    text-align: center;
+    box-shadow: none;
+    padding: 10px;
+}
+div#ppoint_review_scode_display_message p.option-info {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+}
